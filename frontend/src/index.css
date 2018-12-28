@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+  font-size: 14px;
+  font-family: sans-serif;
+}
+
+html, body, #root, #root > div, .full-row-body {
+  min-height: 100%;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
+}
+
+.full-row-header {
+  background: green;
+  padding: 10px;
+  width: 100%;
+}
+
+.full-row-header div {
+  display: inline-block;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.full-row-header div a,
+.full-row-header div a:active, .full-row-header div a:focus, .full-row-header div a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.full-row-header div:nth-child(even) {
+  margin: 0 20px;
+}
+
+.full-row-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+a.body-links,
+a.body-links-home  {
+  color: green;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.body-links-home {
+  text-align: center;
+}
+
+.columns-1-3 {
+  flex: 200px;
+  background: #97c597;
+}
+
+.instructions {
+  padding: 10px;
+}
+
+.instructions h3 {
+  font-size: 14px;
+  margin: 0;
+}
+
+.columns-2-3 {
+  flex: calc(80% - 200px);
+}
+
+.columns-3-3 {
+  flex: 20%;
+  background: #bfd2bf;
+}
+
+/* Post view */
+.general-padding {
+  padding: 10px;
+}
+
+.post-list >h3 {
+  font-size: 16px;
+  margin: 0;
+}
+
+.post-list:nth-child(even) {
+  border-top: 1px solid #000;
+  border-bottom: 1px solid black;
+}
+
+.particular-post {
+  margin: 20px 0 0 0;
+}
+
+/* Add post view */
+
+.columns-3-3 form,
+.post-comments {
+  margin: 0 10px;
+}
+
+.columns-3-3 form label {
+  display: block;
+}
+
+.columns-3-3 input,
+.columns-3-3 textarea,
+.columns-3-3 select {
+  width: 100%;
+  padding: 5px;
+}
+
+.columns-3-3 input,
+.columns-3-3 textarea,
+.columns-3-3 select,
+.columns-3-3 button {
+  margin: 0 0 10px 0;
+}
+
+button {
+  min-width: 100px;
+}
+
+
+/* Comments */
+.comments {
+  margin: 0 0 0 30px;
+}
+
+.comments:nth-child(odd) {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comments:last-child {
+  margin-top: 20px;
+}
+
+.comment-form {
+  margin: 20px 0 0 0;
+}
+
+/* Helpers */
+.click-element {
+  cursor: pointer;
+}
+
+.scoring {
+  margin: 5px 0;
+}
+
+span.click-element:nth-child(odd) {
+  margin: 0 10px;
+}
+
+.view-response {
+  text-align: center;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.element-button, button {
+  text-align: center;
+  padding: 10px;
+  border: 1px solid #000;
+  background: green;
+  color: #fff;
+  margin: 10px 0 0 0;
+  cursor: pointer;
+}
+
+.element-button:hover,
+button:hover {
+  background: #fff;
+  color: #000;
+}
+
+.center-helper {
+  text-align: center;
+}
+
+:required {
+  box-shadow: none;
+}
+
+:required:focus {
+  border: auto;
+}
+
+:required:hover {
+  opacity: 1;
+}
+
+.element-ul {
+  margin-left: 0;
+  padding-left: 12px;
+}
+
+.post-details {
+  margin: 10px;
+}
+
+.post-details label {
+  display: block;
+}
+
+.post-details input,
+.post-details textarea,
+.post-details select {
+  width: 100%;
+  padding: 5px;
+  max-width: 500px;
+}
+
+/* Code: Udacimeals */
+
+.modal {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgb(255, 255, 255);
+  overflow: auto;
+  outline: none;
+}

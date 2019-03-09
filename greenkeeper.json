@@ -1,0 +1,10 @@
+{
+  "groups": {
+    "default": {
+      "packages": [
+        "api-server/package.json",
+        "frontend/package.json"
+      ]
+    }
+  }
+}

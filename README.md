@@ -1,5 +1,7 @@
 ## Changes Dec 2018
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/alpersonalwebsite/postME.svg)](https://greenkeeper.io/)
+
 * Updating dependencies in both,
   * api-server
   * frontend

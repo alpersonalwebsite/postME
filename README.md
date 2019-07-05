@@ -1,6 +1,7 @@
 ## Changes Dec 2018
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/alpersonalwebsite/postME.svg)](https://greenkeeper.io/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
 
 * Updating dependencies in both,
   * api-server
